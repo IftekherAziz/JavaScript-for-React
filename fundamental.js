@@ -76,7 +76,9 @@ const reduceArray = numbers.reduce((accumulator, currentNumber) => accumulator +
 
 // Declaration of function:
 function addTwoNumbers(num1, num2) {
-    return num1 + num2;
+    // Adds two numbers and returns the result
+    let result = num1 + num2;
+    return result;
 }
 
 // Calling a function:
